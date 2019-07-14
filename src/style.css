@@ -1,0 +1,74 @@
+:root {
+  --main-color: #5ea3d0;
+  --secondary-color: white;
+  --main-text-color: #3e5869;
+  --secondary-text-color: #b0c7d6;
+  --send-message-form: #F5F5F5;
+}
+
+/* fonts */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+html, body {
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  display: grid;
+  /* height: 100%; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "n  n  n  n  pn pn pn pn pn s  s  s"
+    "n  n  n  n  pn pn pn pn pn s  s  s"
+    "pw pw pw h  h  h  h  h  h  s  s  s"
+    "pw pw pw h  h  h  h  h  h  s  s  s"
+    "pw pw ps ps ps ps ps ps b  b  b  b"
+    "pw pw ps ps ps ps ps ps b  b  b  b"
+}
+
+.nav-wrapper {
+  grid-area: n;
+}
+
+
+.photo-north-wrapper {
+  grid-area: pn;
+}
+
+
+.social-wrapper {
+  grid-area: s;
+}
+
+
+.photo-west-wrapper{
+  grid-area: pw;
+}
+
+
+.header-wrapper {
+  grid-area: h;
+}
+
+
+.photo-south-wrapper {
+  grid-area: ps;
+}
+
+
+.blog-wrapper {
+  grid-area: b;
+}
+
+
+.footer-wrapper {
+  grid-area: f;
+}
+

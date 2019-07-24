@@ -170,9 +170,6 @@ a:hover {
   border: .5px solid var(--secondary-text-color);
 } */
 
-.container {
-  /* height: 100px; */
-}
 
 .app {
   display: grid;
@@ -185,6 +182,16 @@ a:hover {
     "pw pw pw ps ps ps ps bl bl bl bl bl"
     "pw pw pw ps ps ps ps bl bl bl bl bl"
 }
+
+/* mobile */
+/* 
+    "n pn pn pn pn pn"
+    "h  h  h  h  h  h"
+    "pw pw pw pw bi bi"
+     ps bl bl bl bl bl"
+    "bi bi ps ps ps ps bl bl bl bl bl"
+    "bi bi ps ps ps ps bl bl bl bl bl"
+*/
 
 .nav-wrapper {
   grid-area: n;
@@ -264,17 +271,33 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: var(--main-white-color); */
 }
 
 .blog-wrapper h3 {
   margin-top: 2.5rem;
 }
- 
+
+
 .blog-wrapper p  {
  margin: .3rem;
+ background-color: var(--main-white-color);
+
 }
 
+/* 
+trying to rotate peace emoji
+didn't work..
+#peace-emoji:focus,
+#peace-emoji:hover {
+  transform: rotate(45deg);
+}
 
-
+#peace-emoji:active,
+#peace-emoji:hover {
+  transform: rotate(45deg);
+  outline: 0;
+}
+ */
 
 

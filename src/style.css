@@ -60,7 +60,7 @@ h2 {
   align-self: baseline;
   margin-bottom: 3rem;
   margin-top: 3rem;
-  font-size: 1.5rem;
+  font-size: 4rem;
   line-height: 1;
   letter-spacing: -.03em;
 }
@@ -157,9 +157,48 @@ a:hover {
   outline: 0;
 }
 
+/* ///// */
+/* Form */
+
+
+.button {
+  padding: .75rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0;
+  /* background-color: almost balck variable; */
+  /* color: alomst white variable */
+  text-shadow: 0 1px 0 #000;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.button,
 .input {
   display: inline-block;
   height: 3rem;
+}
+
+.buttom,
+.label {
+  font-family: var(--secondary-font-family);
+  font-weight: 400;
+  letter-spacing: .06em;  
+  text-transform: uppercase;
+}
+
+
+.input {
+  border: 1px dotted #999;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+textarea:focus, input:focus {
+	/* border: 2px solid var(--secondary-text-color); */
 }
 
 
@@ -187,7 +226,7 @@ a:hover {
 /* 
     "n pn pn pn pn pn"
     "h  h  h  h  h  h"
-    "pw pw pw pw bi bi"
+    "pw pw pw pw bi bi" 
      ps bl bl bl bl bl"
     "bi bi ps ps ps ps bl bl bl bl bl"
     "bi bi ps ps ps ps bl bl bl bl bl"
@@ -208,6 +247,11 @@ a:hover {
   align-items: flex-start;
 }
 
+#photo-north {
+  max-width: 500px;
+  min-width: 200px;
+  width: 100%;
+}
 
 .bio-wrapper {
   grid-area: bi;
@@ -222,6 +266,11 @@ a:hover {
   padding-top: 3rem;
 }
 
+#photo-east {
+  max-width: 180px;
+  min-width: 100px;
+  width: 100%;
+}
 
 
 .photo-west-wrapper {
@@ -240,6 +289,9 @@ a:hover {
   padding-top: 3rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
+  max-width: 250px;
+  min-width: 150px;
+  width: 100%;
 }
 
 
@@ -263,6 +315,9 @@ a:hover {
   border-right: 1rem solid var(--main-black-color);
   border-bottom: .5rem solid var(--main-black-color);
   border-left: .5rem solid var(--main-black-color);
+  max-width: 400px;
+  min-width: 200px;
+  width: 100%;
 }
 
 

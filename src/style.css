@@ -286,12 +286,12 @@ textarea:focus, input:focus {
 }
 
 #photo-west {
-  padding-top: 3rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
   max-width: 250px;
   min-width: 150px;
   width: 100%;
+  padding-top: 3rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -311,13 +311,13 @@ textarea:focus, input:focus {
 }
 
 #photo-south {
+  max-width: 400px;
+  min-width: 200px;
+  width: 100%;
   border-top: .5rem solid var(--main-black-color);
   border-right: 1rem solid var(--main-black-color);
   border-bottom: .5rem solid var(--main-black-color);
   border-left: .5rem solid var(--main-black-color);
-  max-width: 400px;
-  min-width: 200px;
-  width: 100%;
 }
 
 
